@@ -1,0 +1,93 @@
+body {
+
+font-size: 16px;
+font-weight: bold;
+color:black;
+}
+}
+
+
+/**************** NavBar Header****************/
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: navy;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid navy;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.navbar-default {
+background-color: grey;
+border: 2px solid black;
+border-radius: 0;
+}
+#baslik {
+color:black;
+font-size:22px;
+font-weight: bold;
+}
+
+h1{
+  text-align:center;
+  color:black;
+}
+.thumbnail{
+  background-color:grey;
+  border-radius:0;
+}
+.bir {
+  text-align:center;
+  font-weight:bold;
+  color:black;
+  font-size: 19px;
+}
+#demo{
+      background-color: white;
+      text-align: center;
+}
+.navbar-default {
+background-color: grey;
+border: 2px solid black;
+border-radius: 0;
+}
+
+.alt{
+
+border-bottom: 2px solid black;
+
+}
+
+button.navbar-toggle, .navbar-header .icon-bar {
+
+  border:solid 1px black;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar:visted {
+  border: 1px solid white;
+}
+
+@media (min-width: 767px) {
+#demo{
+background-color: grey;
+}
+}
